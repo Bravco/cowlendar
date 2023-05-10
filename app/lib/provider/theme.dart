@@ -37,7 +37,7 @@ class Themes {
     colorScheme: const ColorScheme.light(),
     primarySwatch: color10,
     textTheme: TextTheme(
-      overline: h4TextStyle(),
+      labelSmall: h4TextStyle(),
     ),
     iconTheme: const IconThemeData(color: Colors.black, opacity: 1),
     listTileTheme: const ListTileThemeData(
@@ -87,7 +87,7 @@ class Themes {
     colorScheme: const ColorScheme.dark(),
     primarySwatch: color10,
     textTheme: TextTheme(
-      overline: h4TextStyle(),
+      labelSmall: h4TextStyle(),
     ),
     iconTheme: const IconThemeData(color: Colors.white, opacity: 1),
     listTileTheme: const ListTileThemeData(
