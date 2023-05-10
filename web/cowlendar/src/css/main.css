@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    --font-family-outfit: 'Outfit', sans-serif;
+    --font-family-roboto: 'Roboto', sans-serif;
+
+    --color-primary: #5A6BFF;
+    --color-primary-alt: #5A6BFF50;
+    --color-60: white;
+    --color-30: #EEEEEE;
+    --color-red: #ff551c;
+    --color-green: #42ee76;
+    --color-blue: #4589ff;
+
+    --color-text: black;
+    --color-text-alt: rgba(0, 0, 0, 0.5);
+
+    --box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+
+    scroll-behavior: smooth;
+}
+
+html.dark {
+    --color-60: #323232;
+    --color-30: #484848;
+
+    --color-text: white;
+    --color-text-alt: rgba(255, 255, 255, .5);
+}
+
+html.dark ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+body {
+    font-family: var(--font-family-roboto);
+    background-color: var(--color-60);
+    color: var(--color-text);
+    accent-color: var(--color-primary);
+}
+
+section {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+a, button {
+    color: var(--color-text);
+    text-decoration: none;
+    cursor: pointer;
+    transition: filter 300ms;
+}
+
+a:hover, button:hover {
+    filter: opacity(50%);
+}
+
+input {
+    background-color: var(--color-60);
+    color: var(--color-text);
+    border-color: var(--color-text-alt);
+}
+
+input[list]::-webkit-calendar-picker-indicator {
+    opacity: 0%;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 0.5rem;
+    background-color: #ccc;
+}
+
+input[type="range"]::-moz-range-track {
+    height: 0.5rem;
+    background-color: #ccc;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    margin-top: -4px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-thumb {
+    border: none;
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+.content-header {
+    color: var(--color-primary);
+    font-family: var(--font-family-outfit);
+    font-size: 3.6em;
+    font-weight: 700;
+}
+
+.content-paragraph {
+    font-family: var(--font-family-roboto);
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.content-paragraph-alt {
+    color: var(--color-text-alt);
+    font-family: var(--font-family-roboto);
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 1.6em;
+}

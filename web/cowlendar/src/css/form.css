@@ -1,0 +1,99 @@
+.container {
+    min-width: 25vw;
+    display: grid;
+    gap: 2.5em;
+    padding: 4em 3em;
+    background-color: var(--color-60);
+    box-shadow: var(--box-shadow);
+    border-radius: 1em;
+    font-family: var(--font-family-outfit);
+}
+
+.subtitle, .btn-wrapper, label  {
+    color: var(--color-text-alt);
+    font-weight: 600;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.inputfield {
+    position: relative;
+}
+
+.inputfield .input-after {
+    position: absolute;
+    top: 50%;
+    right: 1em;
+}
+
+.inputfield, .btn-wrapper  {
+    display: grid;
+    gap: .5em;
+}
+
+label {
+    font-size: .8em;
+    transform: translateY(2px);
+}
+
+input {
+    padding: .8em;
+    border: 1px solid #DEDEDE;
+    border-radius: .5em;
+    font-family: var(--font-family-roboto);
+    font-size: 1em;
+    outline: none;
+    transition: border-color 300ms;
+}
+
+input:focus {
+    border-color: var(--color-primary);
+}
+
+button {
+    width: 100%;
+    padding: .8em 1.6em;
+    border-radius: 16em;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    font-family: var(--font-family-outfit);
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:disabled {
+    filter: opacity(50%);
+}
+
+.validation, .error {
+    color: var(--color-red);
+}
+
+.success {
+    color: var(--color-green);
+}
+
+p a, .toggle {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+.toggle {
+    font-weight: 600;
+    text-align: right;
+}

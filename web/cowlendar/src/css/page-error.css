@@ -1,0 +1,8 @@
+.page-error .content-header {
+    margin-bottom: .5em;
+}
+
+.page-error p {
+    color: var(--color-text-alt);
+    font-weight: 500;
+}

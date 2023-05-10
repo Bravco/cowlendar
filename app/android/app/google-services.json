@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019719663138",
+    "project_id": "cowcardfile-b31b6",
+    "storage_bucket": "cowcardfile-b31b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019719663138:android:f793a3f8fb0fab9727147b",
+        "android_client_info": {
+          "package_name": "com.mhbravco.cowlendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019719663138-d49dfmvm8sdih5aub5g715f8l2s5gqcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBByfiOIpbYCRjP8Sjk6YKZbfWgYNC8hvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019719663138-d49dfmvm8sdih5aub5g715f8l2s5gqcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

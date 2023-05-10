@@ -1,0 +1,9 @@
+.section {
+    display: grid;
+    gap: 2em;
+}
+
+.section-title {
+    font-family: var(--font-family-outfit);
+    font-size: 1.5em;
+}

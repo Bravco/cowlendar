@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CEHZ PUBLIC "-//CEHZ Mapping DTD 1.0//EN" "http://www.cehz.sk/dtd/hd-z.dtd">
+
+<CEHZ>
+  <DRUH>HD</DRUH>
+  <TYP>Z</TYP>
+  <DATUM>21.01.2023</DATUM>
+  <KOD>H 3066132023.01.21_HD_8</KOD>
+  <REPORT_ID />
+  <UZIVATEL />
+  <POCET_RIADKOV />
+  <POCET_ZNAKOV />
+  <DATUM_START />
+  <DATUM_KONIEC />
+  <DOBA_ZADAVANIA />
+  <UZIVATEL_2 />
+  <POCET_RIADKOV_2 />
+  <POCET_ZNAKOV_2 />
+  <DATUM_START_2 />
+  <DATUM_KONIEC_2 />
+  <DOBA_ZADAVANIA_2 />
+  <HLAVICKA>
+    <REG_CISLO>306613</REG_CISLO>
+    <NAZOV></NAZOV>
+    <ICO></ICO>
+  </HLAVICKA>
+  <RIADKY>
+    <RIADOK cislo="r1">
+      <LIST>1</LIST>
+      <CISLO_RIADKU>1</CISLO_RIADKU>
+      <STAT>SK</STAT>
+      <REG_CISLO>000813814321</REG_CISLO>
+      <UDALOST>02</UDALOST>
+      <DATUM>180123</DATUM>
+      <STAT_MATKA>SK</STAT_MATKA>
+      <REG_CISLO_MATKA>000801151184</REG_CISLO_MATKA>
+      <PLEMENO_1>H</PLEMENO_1>
+      <KRV_1>100,0</KRV_1>
+      <PLEMENO_2></PLEMENO_2>
+      <KRV_2>0,0</KRV_2>
+      <PLEMENO_3></PLEMENO_3>
+      <KRV_3>0,0</KRV_3>
+      <PLEMENO_4></PLEMENO_4>
+      <KRV_4>0,0</KRV_4>
+      <SRST>0</SRST>
+      <SUCKLER_COW>0</SUCKLER_COW>
+      <DAIRY_COW>1</DAIRY_COW>
+    </RIADOK>
+  </RIADKY>
+</CEHZ>

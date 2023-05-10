@@ -1,0 +1,41 @@
+name: app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.0
+
+  cloud_firestore: ^4.2.0
+  firebase_auth: ^4.2.0
+  firebase_messaging: ^14.1.4
+
+  email_validator: ^2.1.17
+  provider: ^6.0.5
+
+  focused_menu: ^1.0.5
+  roundcheckbox: ^2.0.5
+  syncfusion_flutter_sliders: ^20.4.48
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo_dark.png
+    - assets/logo_light.png
+    - assets/cow_dark.png
+    - assets/cow_light.png
