@@ -1,16 +1,9 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, onAuthStateChanged } from "firebase/auth"
 import { getFirestore, collection, doc, query, orderBy } from "firebase/firestore";
+import { firebaseConfig } from "./config";
 
-export const firebaseApp = initializeApp({
-    apiKey: "AIzaSyBSW1_s4aI-5bFgctl8v6n_NnCU1CsyREY",
-    authDomain: "cowcardfile-b31b6.firebaseapp.com",
-    projectId: "cowcardfile-b31b6",
-    storageBucket: "cowcardfile-b31b6.appspot.com",
-    messagingSenderId: "1019719663138",
-    appId: "1:1019719663138:web:11e5fd4175c76a2727147b",
-    measurementId: "G-F285BZBB1M"
-});
+export const firebaseApp = initializeApp(firebaseConfig);
 
 const db = getFirestore(firebaseApp);
 
