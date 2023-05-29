@@ -100,6 +100,10 @@ class Utils {
   
     int difference = daysBetween(now, calvingDate);
 
-    return difference;
+    if (difference < 0) {
+      return 0;
+    } else {
+      return difference;
+    }
   }
 }

@@ -90,6 +90,7 @@ class MyDrawer extends StatelessWidget {
     required int pushPageIndex,
   }) {
     return ListTile(
+      contentPadding: const EdgeInsets.symmetric(horizontal: 16),
       leading: Container(
         padding: const EdgeInsets.all(4),
         decoration: BoxDecoration(

@@ -91,7 +91,7 @@ class Themes {
     ),
     iconTheme: const IconThemeData(color: Colors.white, opacity: 1),
     listTileTheme: const ListTileThemeData(
-      contentPadding: EdgeInsets.all(8),
+      contentPadding: EdgeInsets.all(16),
       dense: true,
       horizontalTitleGap: 16,
       minLeadingWidth: 0,
