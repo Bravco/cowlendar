@@ -3,7 +3,7 @@
         <div class="content">
             <div class="flex-item">
                 <div class="slogan-col">
-                    <h1 class="content-header">Moo-ving towards smarter farming</h1>
+                    <h1 class="content-header">Moo-ing towards smarter farming</h1>
                     <p class="content-paragraph-alt">Keep your herd productive and grow with ease.</p>
                 </div>
                 <div class="btn-row">
