@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import { getCurrentUser } from "vuefire";
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory("/cowlendar/"),
     routes: [
         {
             path: "/",
