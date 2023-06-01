@@ -36,8 +36,8 @@
                         <p v-if="item.id == selectedMobileId" class="choice-description">{{ item.description }}</p>
                     </li>
                     <li>
-                        <a class="btn btn-apple" href="">App Store</a>
-                        <a class="btn btn-google" href="">Google Play</a>
+                        <a class="btn btn-apple" target="_blank" href="">App Store</a>
+                        <a class="btn btn-google" target="_blank" href="https://play.google.com/store/apps/details?id=com.mhbravco.cowlendar">Google Play</a>
                     </li>
                 </ul>
             </div>
