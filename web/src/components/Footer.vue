@@ -27,7 +27,7 @@
                     <h2>Services</h2>
                     <ul>
                         <li>
-                            <RouterLink to="/app">Desktop App</RouterLink>
+                            <RouterLink to="/app">Web App</RouterLink>
                         </li>
                         <li>
                             <RouterLink to="/#mobile">Mobile App</RouterLink>
