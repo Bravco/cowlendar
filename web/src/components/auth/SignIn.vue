@@ -60,7 +60,7 @@
         }
 
         signInWithEmailAndPassword(getAuth(), email.value, password.value).then(() => {
-            router.push("/");
+            router.push("/app");
         }).catch((error) => {
             switch (error.code) {
                 case "auth/invalid-email":

@@ -41,7 +41,7 @@
 
     function handleSignOut() {
         signOut(auth).then(() => {
-            router.push("/");
+            router.push("/auth");
         });
     };
 </script>

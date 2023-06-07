@@ -100,7 +100,7 @@
                 signOut(getAuth());
             }
             createUserWithEmailAndPassword(getAuth(), state.email, state.password).then(() => {
-                router.push("/");
+                router.push("/app");
                 
                 setDoc(userDoc, {
                     "id": getAuth().currentUser.uid,
